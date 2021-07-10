@@ -1,0 +1,99 @@
+/* Footer*/
+
+footer{
+    background-color: white;
+}
+
+footer div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer h4{
+    font-size: 16px;
+}
+
+footer p{
+    width: 240px;
+    margin: 0 auto;
+}
+
+footer .fa-credit-card{
+    margin-top: 60px;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+footer .fa-gift{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+footer .fa-user-shield{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+footer .fa-credit-card:hover{
+    color: var(--color-verde);
+}
+
+footer .fa-gift:hover{
+    color: var(--color-verde);
+}
+
+footer .fa-user-shield:hover{
+    color: var(--color-verde);
+}
+
+footer .copyright h4{
+    font-size: 12px;
+}
+
+footer .copyright{
+    padding-bottom: 2em;
+}
+
+footer h4, footer p{
+    color: var(--color-gris-oscuro);
+}
+
+footer .copyright{
+    text-align: left;
+    margin-left: 15px;
+}
+
+@media (min-width:769px){
+    footer p{
+        width: auto;
+    }
+
+    footer .copyright{
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:1024px){
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    footer div{
+        width: 28%;
+        margin-top: 30px;
+    }
+
+    footer .copyright{
+        width: 100%;
+        padding-bottom: 0em;
+        text-align: left;
+        padding-left: 32px;
+    }
+
+    footer .fa-credit-card{
+        margin-top: 0px;
+    }
+}
